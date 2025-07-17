@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    border-radius: 16px;
+    border: none;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-6px) scale(1.03);
+}
+
+.navbar {
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.card-header {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.btn-primary, .btn-success {
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: background 0.2s;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background: #4f46e5;
+}
+
+.form-control:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px #6366f133;
+}
+
+.alert-danger, .alert-success {
+    border-radius: 8px;
+}
+
+h2, h4 {
+    color: #3730a3;
+    font-weight: 700;
+}
+
+a {
+    color: #6366f1;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
